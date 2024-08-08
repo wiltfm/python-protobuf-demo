@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package olympics;
+
+message Athlete {
+  int32 id = 1;
+  string name = 2;
+  string country = 3;
+  string sport = 4;
+  repeated Medal medals = 5;
+}
+
+message Medal {
+  enum MedalType {
+    MT_UNSPECIFIED = 0;
+    GOLD = 1;
+    SILVER = 2;
+    BRONZE = 3;
+  }
+  MedalType type = 1;
+  string event = 2;
+  int32 year = 3;
+}

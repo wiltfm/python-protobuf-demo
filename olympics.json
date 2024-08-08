@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "name": "Rebeca Andrade",
+  "country": "Brazil",
+  "sport": "Artistic gymnastics",
+  "medals": [
+    {
+      "event": "Women's Floor",
+      "year": 2024
+    }
+  ]
+}

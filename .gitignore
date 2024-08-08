@@ -1,0 +1,6 @@
+env
+pyvenv.cfg
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
